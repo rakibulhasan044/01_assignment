@@ -47,6 +47,8 @@ header {
     line-height: 95px;
 }
 
+/* main part */
+
 main > section {
     margin: 0px auto 100px auto;
     border-radius: 16px;
@@ -206,7 +208,7 @@ main > section {
 }
 
 .left {
-width: 32%;
+    width: 32%;
 }
 
 .middle {
@@ -320,6 +322,7 @@ width: 32%;
     display: flex;
     gap: 20px;
 }
+
 .image-container img{
     width: 420px;
     height: 450px;
@@ -373,6 +376,8 @@ input[type="submit"] {
     border-bottom-right-radius: 30px;
 }
 
+/* footer part */
+
 .main-foot {
     height: 600px;
     width: 100%;
@@ -380,7 +385,6 @@ input[type="submit"] {
     color: #FFF;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -440,7 +444,6 @@ input[type="submit"] {
 }
 
 .sub-btn {
-    padding: auto;
     font-size: 24px;
     height: 30px;
     width: 150px;
