@@ -9,7 +9,7 @@
 
 header {
     height: 600px;
-    width: 1320px;
+    width: 1270px;
     background-image: url(assets/Banner\ Image.png);
     background-repeat: no-repeat;
     background-image: cover;
@@ -21,7 +21,7 @@ header {
 
 .shadow {
     height: 600px;
-    width: 1320px;
+    width: 1270px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     position: absolute;
     border-radius: 16px;
@@ -85,7 +85,7 @@ main > section {
 
 .welcome {
     height: 600px;
-    width: 1320px;
+    width: 1270px;
     color: #fff;
     background-image: url(assets/Vectorrr.png);
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ main > section {
 }
 .shadow-2 {
     height: 600px;
-    width: 1320px;
+    width: 1270px;
     border-radius: 16px;
     position: absolute;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
@@ -146,7 +146,7 @@ main > section {
 
 .event-content {
     height: 480px;
-    width: 1320px;
+    width: 1270px;
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     display: flex;
@@ -187,7 +187,7 @@ main > section {
 
 .future-event {
     height: 450px;
-    width: 1320px;
+    width: 1270px;
     display: flex;
     gap: 60px;
     position: relative;
@@ -247,7 +247,7 @@ main > section {
 
 .holidat-sale {
     height: 962px;
-    width: 1320px;
+    width: 1270px;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -295,6 +295,7 @@ main > section {
     background-position: top right, bottom;
     display: flex;
     justify-content: space-around;
+    border-radius: 16px;
 }
 
 .upper-div .discount {
@@ -308,7 +309,7 @@ main > section {
 }
 
 .portfolio {
-    width: 1320px;
+    width: 1270px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -324,7 +325,7 @@ main > section {
 }
 
 .image-container img{
-    width: 420px;
+    width: 413px;
     height: 450px;
     border-radius: 16px;
 }
@@ -337,7 +338,7 @@ main > section {
 
 .subscribe {
     height: 600px;
-    width: 1320px;
+    width: 1270px;
     background: rgba(255, 0, 0, 0.05);
     align-items: center;
     display: flex;
