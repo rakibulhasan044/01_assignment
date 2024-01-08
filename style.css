@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+ /* header part */
+
+header {
+    height: 600px;
+    width: 1320px;
+    background-image: url(assets/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 16px;
+    margin: 50px auto 100px auto;
+}
+
+.shadow {
+    height: 600px;
+    width: 1320px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    position: absolute;
+    border-radius: 16px;
+}
+
+.header {
+    text-align: center;
+    color: #fff;
+    padding: 200px 250px;
+    position: relative;
+}
+
+.header h3 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.primary-title {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+main > section {
+    margin: 0px auto 100px auto;
+    border-radius: 16px;
+}
+
+.new-year-offer {
+    text-align: center;
+}
+
+.red-title {
+    color: #f00;
+    font-size: 80px;
+    font-family: inter;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.primary-red-text {
+    color: #f00;
+    margin-bottom: 15px;
+}
+
+.black-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.new-year-offer img {
+    margin-top: 45px;
+}
+
+.welcome {
+    height: 600px;
+    width: 1320px;
+    color: #fff;
+    background-image: url(assets/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.shadow-2 {
+    height: 600px;
+    width: 1320px;
+    border-radius: 16px;
+    position: absolute;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 60%;
+    margin-left: 100px;
+    gap: 30px;
+    position: relative;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.button {
+    width: 140px;
+    height: 27px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.welcome-img-container {
+    width: 319.px;
+    height: 464.px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.event-content {
+    height: 480px;
+    width: 1320px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.red-text {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.event-content p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.btn-red {
+    width: 167px;
+    height: 56px;
+    padding: 16px 32px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.future-event {
+    height: 450px;
+    width: 1320px;
+    display: flex;
+    gap: 60px;
+    position: relative;
+    align-items: center;
+}
+
+
+.text-2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.future-event  h3 {
+    margin-bottom: 10px;
+}
+
+.left {
+width: 32%;
+}
+
+.middle {
+    width: 36%;
+    border-radius: 50%;
+    background-color:white;
+}
+
+.right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right img {
+    position: absolute;
+    bottom: 0;
+    height: 140px;
+    width: 140px;
+}
+
+.middle .circle-1 {
+    padding: 25px;
+    border-collapse: collapse;
+    border: 14px solid red;
+    border-radius: 50%;
+}
+
+.year-2024 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.holidat-sale {
+    height: 600px;
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.sale-details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sale-details p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale-details > h1 > span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.sale-details > h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.sale-picture .upper-div {
+    width: 100%;
+    height: 662px;
+    background-image: url(assets/Rectangle\ 1.png), url(assets/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: top right, bottom;
+    display: flex;
+    justify-content: space-around;
+}
+
+.upper-div .discount {
+    padding-top: 50px;
+    padding-right: 250px;
+}
+
+.upper-div .box {
+    padding-top: 250px;
+    padding-left: 130px;
+}
