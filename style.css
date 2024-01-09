@@ -442,6 +442,7 @@ input[type="submit"] {
     display: flex;
     height: 100px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .sub-btn {
